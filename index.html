@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <!-- Utilizando fontawesome -->
+  <script src="https://kit.fontawesome.com/256f7c1f41.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 style="text-align: center; margin-top: 50px;">Calculadora </h1>
+    <div class="calculator">
+       <!-- //o p será o display da calculadora-->
+      <p class="result" id="resultado"></p>
+      <table>
+          <!-- //linha -->
+        <tr>
+           <!-- //colunas, botões com icones do fotawesome e a função -->
+          <td> <button class="btn ac"  style="width: 106px;" onclick="clean()" >AC</button></td>
+          <td><button class="btn delete" onclick="backspace()"><i class="fa-solid fa-delete-left"></i></button></td>
+          <td><button class="btn operator" onclick="insert('/')"><i class="fa-solid fa-divide"></i></button></td>
+        </tr>
+        <tr>
+          <td><button class="btn" onclick="insert('7')">7</button></td>
+          <td><button class="btn" onclick="insert('8')">8</button></td>
+          <td><button class="btn" onclick="insert('9')">9</button></td>
+          <td><button class="btn operator" onclick="insert('*')"><i class="fa-solid fa-xmark"></i></button></td>
+        </tr>
+        <tr>
+          <td><button class="btn" onclick="insert('4')">4</button></td>
+          <td><button class="btn" onclick="insert('5')">5</button></td>
+          <td><button class="btn" onclick="insert('6')">6</button></td>
+          <td><button class="btn operator" onclick="insert('-')" ><i class="fa-solid fa-minus"></i></button></td>
+        </tr>
+        <tr>
+          <td><button class="btn" onclick="insert('1')">1</button></td>
+          <td><button class="btn" onclick="insert('2')">2</button></td>
+          <td><button class="btn" onclick="insert('3')">3</button></td>
+          <td><button class="btn operator" onclick="insert('+')"><i class="fa-solid fa-plus"></i></button></td>
+        </tr>
+        <tr>
+          <td><button class="btn" onclick="insert('0')">0</button></td>
+          <td><button class="btn" onclick="insert('.')">.</button></td>
+          <td><button class="btn equal" style="width: 106px" onclick="confirma('=')"><i class="fa-solid fa-equals"></i></button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

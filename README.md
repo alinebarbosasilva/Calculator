@@ -13,6 +13,9 @@ Bem-vindo ao meu repositório criado para realizar o desafio de desenvolver uma 
   </ul> 
 </p>
 
+Link: https://alinebarbosasilva.github.io/Calculator/
+
 ### Tecnologias utilizadas HTML, CSS e JS
+
 - Utilitários
 [FontAwesome](https://fontawesome.com/)

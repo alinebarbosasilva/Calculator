@@ -14,4 +14,5 @@ Bem-vindo ao meu repositório criado para realizar o desafio de desenvolver uma 
 </p>
 
 ### Tecnologias utilizadas HTML, CSS e JS
-- Utilitários [FontAwesome](https://fontawesome.com/)
+- Utilitários
+[FontAwesome](https://fontawesome.com/)
